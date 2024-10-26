@@ -1,0 +1,257 @@
+body {
+  background-color: rgb(37, 163, 192);
+}
+
+.logo {
+  width: 400px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: rgb(231, 231, 231);
+  height: 250px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.school-name-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.school-name {
+  font-family: luckiest guy;
+  font-size: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(57, 57, 57);
+  margin-top: 10px;
+}
+
+.ganga {
+  font-size: 32px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Exo 2';
+  font-weight: bold;
+  color: rgb(57, 57, 57);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ganga1 {
+  font-size: 32px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Exo 2';
+  font-weight: bold;
+  color: rgb(57, 57, 57);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ganga2 {
+  font-size: 32px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Exo 2';
+  font-weight: bold;
+  color: rgb(57, 57, 57);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ganga3 {
+  font-size: 32px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Exo 2';
+  font-weight: bold;
+  color: rgb(57, 57, 57);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.teleporter {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 162px;
+  align-items: center;
+  margin-top: -15px;
+}
+
+.button-1, .button-2, .button-3, .button-4 {
+  cursor: pointer;
+}
+
+.ganga::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.ganga:hover::before {
+  visibility: visible;
+  width: 100%;
+  left: 0;
+}
+
+.ganga1::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.ganga1:hover::before {
+  visibility: visible;
+  width: 100%;
+  left: 0;
+}
+
+.ganga2::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.ganga2:hover::before {
+  visibility: visible;
+  width: 100%;
+  left: 0;
+}
+
+.ganga3::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.ganga3:hover::before {
+  visibility: visible;
+  width: 100%;
+  left: 0;
+}
+
+.ganga:hover {
+  color: black;
+}
+
+.ganga1:hover {
+  color: black;
+}
+
+.ganga2:hover {
+  color: black;
+}
+
+.ganga3:hover {
+  color: black;
+}
+
+.ganga:active {
+  opacity: 0.75;
+  transition: 0.15s;
+}
+
+.ganga1:active {
+  opacity: 0.75;
+  transition: 0.15s;
+}
+
+.ganga2:active {
+  opacity: 0.75;
+  transition: 0.15s;
+}
+
+.ganga3:active {
+  opacity: 0.75;
+  transition: 0.15s;
+}
+
+
+
+.ganga:hover {
+  font-size: 36px;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+.ganga1:hover {
+  font-size: 36px;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+.ganga2:hover {
+  font-size: 36px;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+.ganga3:hover {
+  font-size: 36px;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+.thoughtbox {
+  height: 100px;
+  margin-left: 275px;
+  margin-right: 275px;
+  border-radius: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thought {
+  color: rgb(57, 57, 57);
+  font-weight: bold;
+  font-family: Gloria Hallelujah;
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
